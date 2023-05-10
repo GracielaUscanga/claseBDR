@@ -9,36 +9,37 @@ Para tener un mejor control en cuánto a ventas y de qué productos debe de habe
 Tener buenos reviews y buena interacción en la marca es importante para crecer a nivel marketing, ser más reconocida y estar en constante mejora. Es por eso se le da seguimiento a las reacciones de los usuarios en los distintos productos que se venden y los comentarios que escriben, esto con la importancia de ver qué piensan del producto, si es un producto muy visitado, muy vendido o muy compartido hacia otras personas, o sea qué tanto raiting se tiene.
 
 **User experience**:
-- ingredients	texto
-- price_usd	float
-- value_price_usd	float
-- sale_price_usd	float
-- limited_edition	binario
-- new	binario
-- online_only	binario
-- sephora_exclusive	binario
-- highlights	texto
-- primary_category	texto
-- secondary_category	texto
-- tertiary_category	texto
+- ingredients	(texto)
+- price_usd	(float)
+- value_price_usd	(float)
+- sale_price_usd	(float)
+- limited_edition	(binario)
+- new	(binario)
+- online_only	(binario)
+- sephora_exclusive	(binario)
+- highlights	(texto)
+- primary_category	(texto)
+- secondary_category	(texto)
+- tertiary_category	(texto)
 
 **Ventas**
-- product_id	texto
-- product_name	texto
-- brand_id	texto
-- brand_name	texto
-- size	texto
-- variation_type	texto
-- variation_value	texto
-- variation_desc	texto
-- out_of_stock	binario
-- child_count	entero
-- child_max_price	entero
-- child_min_price	entero
+- product_id	(texto)
+- product_name	(texto)
+- brand_id	(texto)
+- brand_name	(texto)
+- size	(texto)
+- variation_type	(texto)
+- variation_value	(texto)
+- variation_desc	(texto)
+- out_of_stock	(binario)
+- child_count	(entero)
+- child_max_price	(entero)
+- child_min_price	(entero)
 
 **Marketing**	
-- loves_count	entero
-- rating	float
-- reviews	entero
+- loves_count	(entero)
+- rating	(float)
+- reviews	(entero)
+
 
 
