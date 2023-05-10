@@ -42,4 +42,15 @@ Tener buenos reviews y buena interacción en la marca es importante para crecer 
 - reviews	(entero)
 
 
+## SGBD Modelo de base de datos jerárquico
 
+Existen distintos tipos de modelos para organizar los datos, los cuales llevan el nombre de gestores de bases de datos. En este caso hablaremos del **modelo de base de datos jerárquico.**
+
+El modelo de base de datos jerárquico tiene una estructura similar a la de un árbol, tiene una organización *padre-hijo*, esto quiere decir que del segmento padre pueden salir muchos segmentos que serían los hijos, pero un hijo solo puede tener un padre (1:n). Básicamente cada segmento es un nodo, el primer nodo es el nodo raíz (no se desprende de ningún otro), de aquí se comienzan a desprender otros nodos. Cada nodo tiene que estar relacionado con el anterior y tienen que tener orden. Cada nodo (hijo) tiene el mismo nivel si viene del mismo nodo (padre). A los nodos que quedan en el último nivel se les llaman hojas y entre más hojas haya, más peso tiene el modelo.
+
+Este tipo de modelos no son flexibles, ya que una vez formado ya no se puede deshacer. Si se necesita quitar un registro de un nodo va a ocasionar que todo lo que está conectado a ese nodo desaparezca y comenzaremos a tener *lack* de información. Otros tipos de modelos como los relacionales, han superado a este, pero todavía existen algunas aplicaciones que se basan en este modelo; tal es el caso de IMS-IBM que fue uno de los primeros sistemas de bases de datos.
+
+Existen variaas situaciones reales, que no tienen una jerarquía o que existe la relación n:m, en estos casos lo que se podría hacer es crear distintos árboles para cada una de las relaciones, pero no es algo conveniente. Una gran ventaja que se tiene con este tipo de modelos es que son muy sencillos de leer y de comprender.
+
+
+ Ruiz, D. F., & Moraga de la Rubia, Á. (2001). El Modelo de Datos Jerárquico.
