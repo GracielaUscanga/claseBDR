@@ -1,3 +1,6 @@
+# Modelo entidad-relación
+Se representa en un diagrama el modelo entidad-relación de la base de datos de la tarea 1
+
 ```mermaid
 flowchart LR
     product -- 1:1 --- product_name([product_name])
