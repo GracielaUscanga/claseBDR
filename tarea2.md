@@ -44,7 +44,7 @@ flowchart LR
     reviews --- texto17{{integer}}
 
     product -- N --- relacion1{vender} -- N ----- online_store
-    product -- 1 --- relacion3{vender} -- 1 ----- price_usd
+    product -- 1 --- relacion1{vender} -- 1 ----- price_usd
     online_store -- 1 --- relacion2{tener} -- N --- post
 
     relacion1 --- price_usd([price_usd])
