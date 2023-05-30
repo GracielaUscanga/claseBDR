@@ -43,10 +43,10 @@ flowchart LR
     rating --- texto16{{float}}
     reviews --- texto17{{integer}}
 
+    price_usd --- texto18{{integer}}
+
     product -- N --- relacion1{vender} -- N ----- online_store
     product -- 1 --- relacion1{vender} -- 1 ----- price_usd
     online_store -- 1 --- relacion2{tener} -- N --- post
 
-    relacion1 --- price_usd([price_usd])
-    price_usd --- texto18{{integer}}
 ```
