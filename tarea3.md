@@ -40,4 +40,4 @@ erDiagram
 
 # Operadores del álgebra relacional
 
-\Pi
+$$\Pi$$
