@@ -44,9 +44,6 @@ erDiagram
 
 ### Ver qué tipo de nmarcas se venden en Sephora
 Ver el nombre de las marcas que hay en la tienda en línea.
-
-\usepackage{underscore}
-
 $\Pi$<sub>brand_name</sub>(Online_Store)
 
 ### Ver el nombre de los productos que no se tienen en stock
