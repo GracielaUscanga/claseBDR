@@ -42,7 +42,7 @@ erDiagram
 
 # Operadores del álgebra relacional
 
-### Ver qué tipo de nmarcas se venden en Sephora
+### Ver qué tipo de marcas se venden en Sephora
 Ver el nombre de las marcas que hay en la tienda en línea.
 
 $\Pi$<sub>brand_name</sub>(Online_Store)
