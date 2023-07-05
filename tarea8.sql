@@ -56,3 +56,4 @@ BEGIN
    INSERT INTO Sephora.df_online_store(product_id) VALUES ('product_id')
 END //
 DELIMITER
+
