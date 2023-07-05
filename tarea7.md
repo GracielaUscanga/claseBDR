@@ -1,4 +1,4 @@
-# Inconsistencias en las bases de datos
+lo# Inconsistencias en las bases de datos
 
 Tabla df_online_store.\
 Existen 3 clasificaciones de categorías: la primera es independiente, la segunda depende de la primera y la tercera categoría depende de la segunda. \
