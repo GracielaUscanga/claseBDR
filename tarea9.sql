@@ -1,13 +1,3 @@
-# Creación de dos funciones
-
-## Regresión lineal
-
-1. Tomamos los nombres de las columnas de las variables "x" & "y" como parámetros de entrada. 
-2. Creamos las variables "pendiente" e "interseccion" como parámetros de salida
-3. Declaramos todas las variables que vamos a utilizar para hacer los calculos de la regresión lineal.
-4. Calculamos la pendiente y la intersección.
-
-```sql
 DROP PROCEDURE IF EXISTS regresion_lineal;
 
 DELIMITER //
@@ -32,15 +22,7 @@ BEGIN
 END //
 
 DELIMITER ;
-```
 
-Ahora, mandamos a llamar la función que acabamos de crear.
-
-1. Declaramos nuestras variables de salida.
-2. Especificamos el nombre de las columnas donde dice "nombre_columna_x" & "nombre_columna_y".
-3. Me da el valor de la pendiente y de la interseccion.
-
-```sql
 SET @pendiente = 0;
 SET @interseccion = 0;
 
@@ -48,16 +30,8 @@ CALL regresion_lineal('nombre_columna_x', 'nombre_columna_y', @pendiente, @inter
 
 SELECT @pendiente AS betha1, @interseccion AS betha0;
 
-```
+#-------
 
-\
-
-## Cantidad de elementos de un arreglo
-
-1. Se escoge un string y ponemos un entero de salida.
-2. Calculamos cuántos caracteres tiene el string.
-
-```sql
 DROP PROCEDURE IF EXISTS cantidad_elementos;
 
 DELIMITER //
@@ -77,4 +51,3 @@ SET @arr = 'string';
 CALL cantidad_elementos(@arr, @cantidad);
 
 SELECT @cantidad;
-```
